@@ -1,0 +1,20 @@
+
+#drum-machine{
+  background-color: rgb(185, 185, 185);
+
+}
+#display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5rem;
+  gap: 0.5rem 0.5rem;
+}
+
+.drum-pad {
+  padding: 1.5rem 2.5rem;
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 5%;
+  box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
